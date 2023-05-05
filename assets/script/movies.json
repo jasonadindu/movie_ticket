@@ -2,7 +2,52 @@
     "movies" : [
         {
             "title": "Avangers",
-            
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg"
+        },
+        {
+            "title":"Eternals",
+            "poster":"https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
+        },
+        {
+            "title": "Robocop",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/robocop.jpg"
+        },
+        {
+            "title": "Batman",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg"
+        },
+        {
+            "title": "Spiderman",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/spider-man-no-way-home.jpg"
+        },
+        {
+            "title": "Rocky",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/rocky.jpg"
+        },
+        {
+            "title": "Flash",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-flash.jpg"
+        },
+        {
+            "title": "The Godfather",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-godfather.jpg"
+        },
+        {
+            "title": "The Lion King",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-lion-king.jpg"
+        },
+        {
+            "title": "The Matrix",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-matrix.jpg"
+        },
+        {
+            "title": "The Exorcist",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-exorcist.jpg"
+        },
+        {
+            "title": "Jfk",
+            "poster": "https://raw.githubusercontent.com/mrspecht/media/main/img/jfk.jpg"
         }
+
     ]
 }

@@ -12,22 +12,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="stylesheet" href="./assets/style/index.css" media="all" />
-    <script src="./assets/script/index.js" type="module"></script>
+    
   </head>
   <body>
-    <header>
-        
-    </header>
+    <nav>
+
+        <div class="container">
+            <div class="title">
+                <h1><i class="fa-sharp fa-solid fa-ticket" style="color: #da3;"></i>  Tickets</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Movie</a></li>
+                        <li><a href="#">Theaters</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+    </nav>
     <main>
+        <div class="search-container">
+            <div class="container">
+                <input type="text" placeholder="Search for movie" id="movie-search"/>
+                <input type="search" class="filter" placeholder="Search by Location"/>
+                <button class="sub-btn">Search</button>
+            </div>
+        </div>
+        
        
 
-    <div class="container">
+    <section class="movie-lists-container">
+        <div class="container">
+            <h3>Now playing.</h3>
 
-      <section>
-        
-      </section>
-    </div>..
+            <div class="movies" id="movies"></div>
+        </div>
+    </section>
     </main>
-  
+    <script src="./assets/script/request.js" type="module"></script>
   </body>
 </html>
